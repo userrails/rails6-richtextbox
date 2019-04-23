@@ -36,24 +36,4 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get —" do
-    get articles_—_url
-    assert_response :success
-  end
-
-  test "should get no-helper" do
-    get articles_no-helper_url
-    assert_response :success
-  end
-
-  test "should get —" do
-    get articles_—_url
-    assert_response :success
-  end
-
-  test "should get no-test-frameworks" do
-    get articles_no-test-frameworks_url
-    assert_response :success
-  end
-
 end
